@@ -1,9 +1,11 @@
 import "./styles.css";
-import CricScore from "./CricScore";
+import colors from "./colors"
+// import CricScore from "./CricScore";
 function App() {
   return (
     <div>
-      <CricScore />
+      {/* <CricScore /> */}
+      <colors />
     </div>
   );
 }
